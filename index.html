@@ -1,110 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-./SA7qkq7xRA5pRtCz+iR9ku6bWGB0pDJAQRSHqIJE8KL7a97lB3Gj3lLsX9UphzJo97El+D50PcH+i/SMo8Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>TOTVS</title>
     <style>
-        * {
-            padding: 0px;
-            margin: 0px auto;
-            box-sizing: border-box;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-
         body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        .formulario {
-            flex: 2;
-            background-color: #f2f2f2;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 20px;
+            height: 100vh;
+            margin: 0;
+            background: black;
         }
-
-        .imagem {
-            flex: 3;
-            background: url('TOTVS.gif') no-repeat;  /* Substitua 'TOTVS2.gif' pelo caminho correto do seu arquivo GIF */
-            background-size: cover;
-            background-position: center;
-        }
-
-        /* Estilize o formulário conforme necessário */
-        form {
-            max-width: 400px;
-            width: 100%;
-        }
-
-        label {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-            background-color: transparent;
-            border: none;
-            border-bottom: 1px solid #000; /* Adiciona uma borda inferior */
-            padding: 5px;
-            line-height: 10px;
-            font-weight: bold;
-            text-transform: uppercase;
-        }
-
-        label i {
-            margin-right: 10px;
-        }
-
-        input {
-            width: calc(100% - 20px); /* Ajusta a largura do input */
-            padding: 5px 0;
-            box-sizing: border-box;
-            border: none;
-            margin-left: 10px;
-            overflow: hidden;
-            outline: none;
-            background-color: transparent;
-            font-size: 15px;
-        }
-
-        button {
-            margin-top: 10px;
-            width: 100%;
-            padding: 10px;
-            box-sizing: border-box;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: bold;
-            font-size: 18px;
-            font-style: oblique;
+        
+        img {
+            width: 100px;
+            height: 100px;
         }
     </style>
 </head>
 <body>
-    <div class="formulario">
-        <form>
-            <!-- Seu formulário aqui -->
-            <label>
-                <i class="fas fa-user"></i> Nome:
-                <input type="text" id="nome" name="nome" required>
-            </label>
-
-            <label>
-                <i class="fas fa-envelope"></i> Email:
-                <input type="email" id="email" name="email" required>
-            </label>
-
-            <button type="submit">Enviar</button>
-        </form>
-    </div>
-    <div class="imagem"></div>
+    <a href="https://tdn.totvs.com/pages/releaseview.action?pageId=808015414" target="_blank">
+        <img src="testegif.gif" alt="GIF" srcset="">
+    </a>
 </body>
 </html>
